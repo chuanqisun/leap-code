@@ -432,12 +432,16 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 2081,
-          "label": "$"
+          "keyCode": 65535,
+          "label": "",
+          "extraLabel": "TRANS",
+          "verbose": "Transparent"
         },
         {
-          "keyCode": 2104,
-          "label": "?"
+          "keyCode": 65535,
+          "label": "",
+          "extraLabel": "TRANS",
+          "verbose": "Transparent"
         },
         {
           "keyCode": 2086,
@@ -510,12 +514,13 @@
           "verbose": "Caps Lock"
         },
         {
-          "keyCode": 46,
-          "label": "="
+          "keyCode": 24576,
+          "label": "0",
+          "extraLabel": "MACRO"
         },
         {
-          "keyCode": 2103,
-          "label": ">"
+          "keyCode": 2081,
+          "label": "$"
         },
         {
           "keyCode": 2095,
@@ -526,8 +531,10 @@
           "label": "}"
         },
         {
-          "keyCode": 45,
-          "label": "-"
+          "keyCode": 65535,
+          "label": "",
+          "extraLabel": "TRANS",
+          "verbose": "Transparent"
         },
         {
           "keyCode": 65535,
@@ -4913,8 +4920,8 @@
       4,
       4,
       15,
-      4,
-      4,
+      15,
+      15,
       4,
       4,
       13,
@@ -4923,7 +4930,7 @@
       4,
       4,
       4,
-      4,
+      15,
       15,
       15,
       4,

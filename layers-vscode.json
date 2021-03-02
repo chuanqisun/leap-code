@@ -504,10 +504,6 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 46,
-          "label": "="
-        },
-        {
           "keyCode": 65535,
           "label": "",
           "extraLabel": "TRANS",
@@ -520,10 +516,13 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 65535,
-          "label": "",
-          "extraLabel": "TRANS",
-          "verbose": "Transparent"
+          "keyCode": 45,
+          "label": "-"
+        },
+        {
+          "keyCode": 24577,
+          "label": "1",
+          "extraLabel": "MACRO"
         },
         {
           "keyCode": 2095,
@@ -534,8 +533,9 @@
           "label": "}"
         },
         {
-          "keyCode": 45,
-          "label": "-"
+          "keyCode": 24576,
+          "label": "0",
+          "extraLabel": "MACRO"
         },
         {
           "keyCode": 65535,
@@ -940,9 +940,10 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 24577,
-          "label": "1",
-          "extraLabel": "MACRO"
+          "keyCode": 65535,
+          "label": "",
+          "extraLabel": "TRANS",
+          "verbose": "Transparent"
         },
         {
           "keyCode": 65535,
@@ -951,9 +952,10 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 24576,
-          "label": "0",
-          "extraLabel": "MACRO"
+          "keyCode": 65535,
+          "label": "",
+          "extraLabel": "TRANS",
+          "verbose": "Transparent"
         },
         {
           "keyCode": 65535,
@@ -5009,8 +5011,8 @@
       4,
       13,
       12,
-      12,
-      12,
+      4,
+      4,
       4,
       4,
       4,
@@ -5027,7 +5029,7 @@
       13,
       12,
       15,
-      14,
+      0,
       15,
       4,
       4,
@@ -5035,7 +5037,7 @@
       4,
       4,
       4,
-      4,
+      15,
       15,
       15,
       15,
@@ -5143,7 +5145,7 @@
       15,
       15,
       15,
-      0,
+      12,
       15,
       15,
       15,
@@ -5169,7 +5171,7 @@
       14,
       0,
       14,
-      0,
+      12,
       15,
       15,
       12,
@@ -5197,7 +5199,7 @@
       15,
       15,
       15,
-      15,
+      4,
       15,
       15,
       15,

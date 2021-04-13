@@ -1369,20 +1369,19 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 2859,
-          "label": "TAB",
-          "extraLabel": "Meh+"
+          "keyCode": 4432,
+          "label": "←",
+          "extraLabel": "C+G+"
         },
         {
-          "keyCode": 65535,
-          "label": "",
-          "extraLabel": "TRANS",
-          "verbose": "Transparent"
+          "keyCode": 282,
+          "label": "W",
+          "extraLabel": "C+"
         },
         {
-          "keyCode": 811,
-          "label": "TAB",
-          "extraLabel": "C+A+"
+          "keyCode": 4431,
+          "label": "→",
+          "extraLabel": "C+G+"
         },
         {
           "keyCode": 70,
@@ -1468,19 +1467,18 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 4432,
-          "label": "←",
-          "extraLabel": "C+G+"
-        },
-        {
-          "keyCode": 4139,
+          "keyCode": 2859,
           "label": "TAB",
-          "extraLabel": "G+"
+          "extraLabel": "Meh+"
         },
         {
-          "keyCode": 4431,
-          "label": "→",
-          "extraLabel": "C+G+"
+          "keyCode": 40,
+          "label": "ENTER"
+        },
+        {
+          "keyCode": 811,
+          "label": "TAB",
+          "extraLabel": "C+A+"
         },
         {
           "keyCode": 65535,
@@ -5299,7 +5297,7 @@
       15,
       6,
       6,
-      15,
+      6,
       6,
       15,
       15,

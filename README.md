@@ -23,7 +23,7 @@
 
 
 **Layer 3**
-- Window managment
+- Window management
 - Numpad
 
 ![image](https://user-images.githubusercontent.com/1895289/114599437-f14e8c80-9c47-11eb-9229-a6597c5681b9.png)

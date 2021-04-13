@@ -1,5 +1,7 @@
 # Dygma Code
 
+A layout for Dygma Raise, optimized for coding in Windows.
+
 ## Design
 
 **Layer 0**

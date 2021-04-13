@@ -1,4 +1,6 @@
-# Design
+# Dygma Code
+
+## Design
 
 **Layer 0**
 - Input

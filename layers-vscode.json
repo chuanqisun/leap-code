@@ -338,9 +338,9 @@
           "verbose": "AltGr"
         },
         {
-          "keyCode": 17453,
-          "label": "3",
-          "extraLabel": "SHIFTTO"
+          "keyCode": 57,
+          "label": "CAPSLOCK",
+          "verbose": "Caps Lock"
         },
         {
           "keyCode": 17152,
@@ -4913,7 +4913,7 @@
       14,
       14,
       14,
-      12,
+      15,
       14,
       14,
       14,

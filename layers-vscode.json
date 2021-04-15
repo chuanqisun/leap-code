@@ -355,8 +355,10 @@
       ],
       [
         {
-          "keyCode": 41,
-          "label": "ESC"
+          "keyCode": 65535,
+          "label": "",
+          "extraLabel": "TRANS",
+          "verbose": "Transparent"
         },
         {
           "keyCode": 58,
@@ -4984,7 +4986,7 @@
       14
     ],
     [
-      4,
+      15,
       4,
       4,
       4,

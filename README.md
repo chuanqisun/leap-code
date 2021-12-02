@@ -15,7 +15,7 @@ A layout for Dygma Raise, optimized for coding in Windows.
 - Left hand: common symbols for coding
 - Right hand: movements
 
-![image](https://user-images.githubusercontent.com/1895289/114599299-c401de80-9c47-11eb-9b36-4816d31d3c11.png)
+![image](https://user-images.githubusercontent.com/1895289/144345731-ef8f5eb2-9e3c-41fe-b9f0-eadbe25ac25f.png)
 
 
 **Layer 2**

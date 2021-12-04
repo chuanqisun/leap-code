@@ -1,11 +1,11 @@
 {
   "layerNames": [
-    "Base/Linux",
-    "Symbol",
+    "Base",
+    "Symbol and move",
     "Fn",
     "Numpad",
     "four",
-    "Base/Win",
+    "Windows Base",
     "six",
     "seven",
     "eight",
@@ -293,8 +293,8 @@
         },
         {
           "keyCode": 227,
-          "label": "LEFT WIN",
-          "verbose": "Left Windows"
+          "label": "LEFT LINUX",
+          "verbose": "Left Linux"
         },
         {
           "keyCode": 226,
@@ -322,8 +322,8 @@
         },
         {
           "keyCode": 227,
-          "label": "LEFT WIN",
-          "verbose": "Left Windows"
+          "label": "LEFT LINUX",
+          "verbose": "Left Linux"
         },
         {
           "keyCode": 17451,
@@ -445,10 +445,8 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 65535,
-          "label": "",
-          "extraLabel": "TRANS",
-          "verbose": "Transparent"
+          "keyCode": 2083,
+          "label": "^"
         },
         {
           "keyCode": 65535,
@@ -615,10 +613,8 @@
           "verbose": "Transparent"
         },
         {
-          "keyCode": 65535,
-          "label": "",
-          "extraLabel": "TRANS",
-          "verbose": "Transparent"
+          "keyCode": 2093,
+          "label": "_"
         },
         {
           "keyCode": 47,
@@ -2475,8 +2471,8 @@
         },
         {
           "keyCode": 227,
-          "label": "LEFT WIN",
-          "verbose": "Left Windows"
+          "label": "LEFT LINUX",
+          "verbose": "Left Linux"
         },
         {
           "keyCode": 226,
@@ -2504,8 +2500,8 @@
         },
         {
           "keyCode": 227,
-          "label": "LEFT WIN",
-          "verbose": "Left Windows"
+          "label": "LEFT LINUX",
+          "verbose": "Left Linux"
         },
         {
           "keyCode": 17451,
@@ -4466,8 +4462,8 @@
         },
         {
           "keyCode": 227,
-          "label": "LEFT WIN",
-          "verbose": "Left Windows"
+          "label": "LEFT LINUX",
+          "verbose": "Left Linux"
         },
         {
           "keyCode": 226,
@@ -4521,8 +4517,8 @@
         },
         {
           "keyCode": 231,
-          "label": "RIGHT WIN",
-          "verbose": "Right Windows"
+          "label": "RIGHT LINUX",
+          "verbose": "Right Linux"
         },
         {
           "keyCode": 17152,
@@ -4833,8 +4829,8 @@
         },
         {
           "keyCode": 227,
-          "label": "LEFT WIN",
-          "verbose": "Left Windows"
+          "label": "LEFT LINUX",
+          "verbose": "Left Linux"
         },
         {
           "keyCode": 226,
@@ -5044,11 +5040,11 @@
       4,
       4,
       15,
-      15,
+      4,
       14,
       4,
       4,
-      13,
+      14,
       12,
       4,
       4,
@@ -5057,7 +5053,7 @@
       4,
       15,
       15,
-      14,
+      4,
       4,
       4,
       4,

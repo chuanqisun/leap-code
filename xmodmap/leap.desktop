@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=leap
+Comment=Easier keyboard navigation
+Exec=/home/sora/Desktop/portable/leap/leap.sh
+Terminal=true
+Type=Application
+Categories=Application;  

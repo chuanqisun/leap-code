@@ -874,12 +874,12 @@
                 null,
                 null,
                 null,
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 41
                 },
-                null,
                 null,
                 null,
                 null,
@@ -1539,9 +1539,8 @@
               "id": 2,
               "keyActions": [
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 2
+                  "keyActionType": "playMacro",
+                  "macroIndex": 0
                 },
                 {
                   "keyActionType": "keystroke",
@@ -2039,12 +2038,12 @@
                 null,
                 null,
                 null,
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 57
                 },
-                null,
                 null,
                 null,
                 null,
@@ -2351,6 +2350,24 @@
     }
   ],
   "macros": [
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "Figma Pan Start",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "press",
+          "type": "basic",
+          "scancode": 44
+        },
+        {
+          "macroActionType": "mouseButton",
+          "action": "hold",
+          "mouseButtonsMask": 1
+        }
+      ]
+    },
     {
       "isLooped": true,
       "isPrivate": true,

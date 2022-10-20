@@ -2261,7 +2261,10 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 6
+                },
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -2486,6 +2489,31 @@
           "action": "tap",
           "type": "basic",
           "scancode": 82
+        },
+        {
+          "macroActionType": "key",
+          "action": "release",
+          "type": "basic",
+          "scancode": 57
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "Capslock-V",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "press",
+          "type": "basic",
+          "scancode": 57
+        },
+        {
+          "macroActionType": "key",
+          "action": "press",
+          "type": "basic",
+          "scancode": 25
         },
         {
           "macroActionType": "key",

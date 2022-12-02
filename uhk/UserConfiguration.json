@@ -1409,7 +1409,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 57,
+                  "scancode": 41,
                   "secondaryRoleAction": "leftCtrl"
                 },
                 {
@@ -1762,7 +1762,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 57,
+                  "scancode": 41,
                   "secondaryRoleAction": "leftCtrl"
                 },
                 {
@@ -1999,7 +1999,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 57,
+                  "scancode": 41,
                   "secondaryRoleAction": "leftCtrl"
                 },
                 {
@@ -2190,7 +2190,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 57,
+                  "scancode": 41,
                   "secondaryRoleAction": "leftCtrl"
                 },
                 null,

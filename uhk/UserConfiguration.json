@@ -372,7 +372,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -713,7 +717,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -914,7 +922,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -1119,7 +1131,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -1505,7 +1521,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
@@ -1850,7 +1870,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -2051,7 +2075,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -2253,7 +2281,11 @@
               "id": 2,
               "keyActions": [
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1
+                },
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",

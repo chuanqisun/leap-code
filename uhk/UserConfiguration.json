@@ -276,7 +276,8 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 57
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
                 },
                 {
                   "keyActionType": "keystroke",
@@ -339,11 +340,7 @@
                   "type": "basic",
                   "scancode": 5
                 },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -375,16 +372,8 @@
               "id": 2,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
-                {
-                  "keyActionType": "switchLayer",
-                  "layer": "mod",
-                  "switchLayerMode": "hold"
-                },
+                null,
+                null,
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "rightClick"
@@ -633,7 +622,12 @@
                   "scancode": 55,
                   "modifierMask": 2
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -687,11 +681,7 @@
                 },
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -723,16 +713,8 @@
               "id": 2,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
-                {
-                  "keyActionType": "switchLayer",
-                  "layer": "mod",
-                  "switchLayerMode": "hold"
-                },
+                null,
+                null,
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "rightClick"
@@ -877,7 +859,12 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -899,11 +886,7 @@
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -931,11 +914,7 @@
               "id": 2,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 null,
                 {
                   "keyActionType": "mouse",
@@ -1077,7 +1056,12 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -1104,11 +1088,7 @@
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -1139,11 +1119,7 @@
               "id": 2,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 null,
                 {
                   "keyActionType": "mouse",
@@ -1433,7 +1409,8 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 41
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
                 },
                 {
                   "keyActionType": "keystroke",
@@ -1496,11 +1473,7 @@
                   "type": "basic",
                   "scancode": 5
                 },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -1531,19 +1504,11 @@
             {
               "id": 2,
               "keyActions": [
+                null,
+                null,
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
-                  "switchLayerMode": "hold"
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
-                {
-                  "keyActionType": "switchLayer",
-                  "layer": "mod",
                   "switchLayerMode": "hold"
                 },
                 {
@@ -1794,7 +1759,12 @@
                   "scancode": 55,
                   "modifierMask": 2
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -1848,11 +1818,7 @@
                 },
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -1884,16 +1850,8 @@
               "id": 2,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
-                {
-                  "keyActionType": "switchLayer",
-                  "layer": "mod",
-                  "switchLayerMode": "hold"
-                },
+                null,
+                null,
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "rightClick"
@@ -2038,7 +1996,12 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -2060,11 +2023,7 @@
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -2092,11 +2051,7 @@
               "id": 2,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 null,
                 {
                   "keyActionType": "mouse",
@@ -2232,7 +2187,12 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
+                  "secondaryRoleAction": "leftCtrl"
+                },
                 null,
                 {
                   "keyActionType": "mouse",
@@ -2262,11 +2222,7 @@
                   "macroIndex": 6
                 },
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -2296,17 +2252,13 @@
             {
               "id": 2,
               "keyActions": [
+                null,
+                null,
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
                   "switchLayerMode": "hold"
                 },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 1
-                },
-                null,
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "rightClick"

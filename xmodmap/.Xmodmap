@@ -1,0 +1,21 @@
+keycode 108 = Mode_switch 
+keycode 31 = i I Up Up
+keycode 44 = j J Left Left
+keycode 45 = k K Down Down 
+keycode 46 = l L Right Right 
+keycode 30 = u U Home Home
+keycode 32 = o O End End
+keycode 38 = a A minus A
+keycode 52 = z Z underscore z
+keycode 26 = e E parenleft E
+keycode 27 = r R parenright R
+keycode 29 = y Y Prior Y
+keycode 43 = h H Next H
+keycode 39 = s S dollar S
+keycode 40 = d D braceleft D
+keycode 41 = f F braceright F
+keycode 42 = g G equal G
+keycode 53 = x X bracketleft X
+keycode 54 = c C bracketright C
+keycode 28 = t T greater T
+

@@ -1960,12 +1960,7 @@
               "id": 0,
               "keyActions": [
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 65,
-                  "modifierMask": 4
-                },
+                null,
                 null,
                 null,
                 null,

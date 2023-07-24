@@ -1,6 +1,7 @@
 # How to
 
-- To install: `sudo ./install.sh`
+- To install binary: `sudo ./download.sh`
+- To install config: `sudo ./install.sh`
 - To modify: edit `config.kbd` and reinstall
 
 # References:

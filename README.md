@@ -36,6 +36,6 @@ A layout for Web Developers
 ## Cross-platform ways to implement the keymap
 
 - Linux implementations of AHK
-- [keysharp](https://bitbucket.org/mfeemster/keysharp/src/master/)
-- [AHK X11](https://github.com/phil294/AHK_X11)
-- [AutoKey](https://github.com/autokey/autokey)
+  - [keysharp](https://bitbucket.org/mfeemster/keysharp/src/master/)
+  - [AHK X11](https://github.com/phil294/AHK_X11)
+  - [AutoKey](https://github.com/autokey/autokey)

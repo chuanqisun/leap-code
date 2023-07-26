@@ -2,10 +2,12 @@
 
 A layout for Web Developers
 
-- Windows, see [AutoHotKey](./ahk/)
-- Linux, see [xmodmap](./xmodmap/) (experimental)
-- Dygma Raise and Dygma Defy, see [dygma](./dygma/)
-- Ultimate Hacking Keyboard (UHK), see [uhk](./uhk/)
+- Software implementation
+  - Windows: [AutoHotKey v1](./ahk/)
+  - Linux: [kmonad](./kmonad), [xmodmap](./xmodmap/) (experimental)
+- Firmware implementation
+  - Dygma Raise and Dygma Defy, see [dygma](./dygma/)
+  - Ultimate Hacking Keyboard (UHK), see [uhk](./uhk/)
 
 ## Design
 
@@ -33,9 +35,8 @@ A layout for Web Developers
 - Window management
 - Numpad
 
-## Cross-platform ways to implement the keymap
+## Alternative solutions
 
-- Linux implementations of AHK
-  - [keysharp](https://bitbucket.org/mfeemster/keysharp/src/master/)
-  - [AHK X11](https://github.com/phil294/AHK_X11)
-  - [AutoKey](https://github.com/autokey/autokey)
+- [keysharp](https://bitbucket.org/mfeemster/keysharp/src/master/)
+- [AHK X11](https://github.com/phil294/AHK_X11)
+- [AutoKey](https://github.com/autokey/autokey)

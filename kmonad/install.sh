@@ -1,4 +1,10 @@
-groupadd -f uinput
+#!/bin/bash
+
+# Require sudo
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"groupadd -f uinput
+
+systemctl stop kmonad.service
+
 usermod -aG input $USER
 usermod -aG uinput $USER
 

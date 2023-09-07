@@ -5,6 +5,7 @@
 
 systemctl stop kmonad.service
 
+sudo groupadd uinput
 usermod -aG input $USER
 usermod -aG uinput $USER
 
@@ -16,6 +17,7 @@ modprobe uinput
 cp ./kmonad.service /etc/systemd/system/kmonad.service
 systemctl daemon-reload
 
+mkdir -p /etc/kmonad
 cp ./config.kbd /etc/kmonad/config.kbd
 systemctl try-restart kmonad.service
 systemctl start kmonad.service

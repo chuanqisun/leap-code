@@ -19,11 +19,11 @@ A layout for Web Developers
 
 
 ### Command layer
+- Left hand: common symbols for coding
+- Right hand: movements
 
 ![image](https://github.com/chuanqisun/leap-code/assets/1895289/b59f9b19-48e6-491d-9b73-c8ca52e86469)
 
-- Left hand: common symbols for coding
-- Right hand: movements
 
 ### Funciton layer
 - OS Functions

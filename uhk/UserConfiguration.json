@@ -407,7 +407,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -792,7 +792,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -1105,7 +1105,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -1411,7 +1411,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -1817,7 +1817,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -2203,7 +2203,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -2518,7 +2518,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -2822,7 +2822,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -3231,7 +3231,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -3618,7 +3618,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -3934,7 +3934,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",
@@ -4239,7 +4239,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4
+                  "modifierMask": 2
                 },
                 {
                   "keyActionType": "mouse",

@@ -1584,10 +1584,12 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 41,
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "none",

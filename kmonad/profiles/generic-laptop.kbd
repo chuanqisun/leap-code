@@ -20,7 +20,11 @@
 )
 
 (defalias
-  ecn (tap-next esc lctl))
+  ;; tap shorter than 200ms triggers escape
+  ;; tap longer than 200ms is ignored
+  ;; press and hold functions as ctrl when followed by another key
+  ;; press and hold functions as ctrl after 200ms when followed by mouse click
+  ecn (tap-hold-next 200 esc lctl))
 
 
 (deflayer qwerty

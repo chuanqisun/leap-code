@@ -2113,7 +2113,7 @@
       "macroActions": [
         {
           "macroActionType": "command",
-          "command": "set secondaryRole.advanced.timeout 200\nset secondaryRole.advanced.safetyMargin -50\nifSecondary advancedStrategy goTo secondaryaction\nprimaryaction: final tapKey escape\nsecondaryaction: final holdKey LC"
+          "command": "set secondaryRole.advanced.timeout 200\nset secondaryRole.advanced.doubletapToPrimary false\nifSecondary advancedStrategy goTo secondaryaction\nprimaryaction: final tapKey escape\nsecondaryaction: final holdKey LC"
         }
       ]
     }

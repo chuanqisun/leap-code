@@ -571,7 +571,7 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 7,
+                  "macroIndex": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1736,9 +1736,8 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 57,
+                  "keyActionType": "playMacro",
+                  "macroIndex": 7,
                   "b": 255,
                   "g": 255,
                   "r": 255
@@ -2103,6 +2102,17 @@
           "action": "release",
           "type": "basic",
           "scancode": 57
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "CapslockToggle",
+      "macroActions": [
+        {
+          "macroActionType": "command",
+          "command": "set secondaryRole.advanced.timeout 1000\nifSecondary advancedStrategy goTo secondaryaction\nprimaryaction: final noOp\nsecondaryaction: final tapKey capsLock"
         }
       ]
     },

@@ -166,7 +166,7 @@
   "keymaps": [
     {
       "isDefault": true,
-      "abbreviation": "WIN",
+      "abbreviation": "VIM",
       "name": "Windows",
       "description": "QWERTY is the mother of all layouts. This is the PC version.",
       "layers": [
@@ -571,7 +571,7 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 8,
+                  "macroIndex": 9,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -2124,6 +2124,17 @@
         {
           "macroActionType": "command",
           "command": "set secondaryRole.advanced.timeout 200\nset secondaryRole.advanced.triggerByRelease true\nset secondaryRole.advanced.triggerByPress true\nset secondaryRole.advanced.triggerByMouse true\nset secondaryRole.advanced.safetyMargin -50\nifSecondary advancedStrategy goTo secondaryaction\nprimaryaction: final tapKey escape\nsecondaryaction: final holdKey LC"
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "EscapeAndControl v2",
+      "macroActions": [
+        {
+          "macroActionType": "command",
+          "command": "set doubletapTimeout 400\nifDoubletap final tapKey escape\nholdKey LC"
         }
       ]
     }

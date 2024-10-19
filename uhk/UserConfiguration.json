@@ -1,6 +1,6 @@
 {
   "userConfigMajorVersion": 7,
-  "userConfigMinorVersion": 0,
+  "userConfigMinorVersion": 1,
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
@@ -92,6 +92,7 @@
       "caretAxisLock": true,
       "axisLockFirstTickSkew": 0.5,
       "axisLockSkew": 0.5,
+      "invertScrollDirectionX": false,
       "invertScrollDirectionY": false,
       "keyClusterSwapAxes": false,
       "keyClusterInvertHorizontalScrolling": false
@@ -115,6 +116,7 @@
       "caretAxisLock": true,
       "axisLockFirstTickSkew": 2,
       "axisLockSkew": 0.5,
+      "invertScrollDirectionX": false,
       "invertScrollDirectionY": false,
       "touchpadPinchZoomDivisor": 4,
       "touchpadHoldContinuationTimeout": 0,
@@ -139,6 +141,7 @@
       "caretAxisLock": true,
       "axisLockFirstTickSkew": 2,
       "axisLockSkew": 0.5,
+      "invertScrollDirectionX": false,
       "invertScrollDirectionY": false
     },
     {
@@ -160,13 +163,14 @@
       "caretAxisLock": true,
       "axisLockFirstTickSkew": 2,
       "axisLockSkew": 0.5,
+      "invertScrollDirectionX": false,
       "invertScrollDirectionY": false
     }
   ],
   "keymaps": [
     {
       "isDefault": true,
-      "abbreviation": "VIM",
+      "abbreviation": "VSC",
       "name": "Windows",
       "description": "QWERTY is the mother of all layouts. This is the PC version.",
       "layers": [
@@ -434,9 +438,9 @@
                   "keyActionType": "switchLayer",
                   "layer": "fn",
                   "switchLayerMode": "hold",
-                  "b": 255,
-                  "g": 255,
-                  "r": 255
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
                 },
                 {
                   "keyActionType": "keystroke",
@@ -753,7 +757,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4,
+                  "scancode": 41,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1056,10 +1060,10 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 53,
+                  "scancode": 57,
                   "b": 0,
                   "g": 0,
-                  "r": 0
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
@@ -1335,15 +1339,15 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 57,
-                  "b": 255,
-                  "g": 255,
-                  "r": 255
+                  "keyActionType": "none",
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 41,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1730,7 +1734,9 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1847,7 +1853,8 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick",
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1882,7 +1889,9 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 41,
                   "b": 0,
                   "g": 0,
                   "r": 0

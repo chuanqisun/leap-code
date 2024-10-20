@@ -1060,9 +1060,9 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 57,
-                  "b": 0,
-                  "g": 0,
+                  "scancode": 53,
+                  "b": 255,
+                  "g": 255,
                   "r": 255
                 },
                 {
@@ -1333,13 +1333,17 @@
               "id": 2,
               "keyActions": [
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 57,
                   "b": 0,
                   "g": 0,
-                  "r": 0
+                  "r": 255
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 1,
                   "b": 0,
                   "g": 0,
                   "r": 0

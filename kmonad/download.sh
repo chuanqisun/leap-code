@@ -1,2 +1,2 @@
-wget https://github.com/kmonad/kmonad/releases/download/0.4.1/kmonad-0.4.1-linux -O ./kmonad
+wget https://github.com/kmonad/kmonad/releases/download/0.4.3/kmonad -O ./kmonad
 chmod +x ./kmonad

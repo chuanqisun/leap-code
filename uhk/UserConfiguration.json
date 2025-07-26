@@ -512,7 +512,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 16,
+                  "modifierMask": 128,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1084,7 +1084,9 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 128,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1644,7 +1646,9 @@
                   "r": 255
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 128,
                   "b": 0,
                   "g": 0,
                   "r": 0

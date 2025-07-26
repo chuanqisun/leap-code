@@ -1,5 +1,5 @@
 {
-  "userConfigMajorVersion": 9,
+  "userConfigMajorVersion": 12,
   "userConfigMinorVersion": 0,
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
@@ -81,6 +81,8 @@
   "displayFadeOutBatteryTimeout": 0,
   "keyBacklightFadeOutTimeout": 0,
   "keyBacklightFadeOutBatteryTimeout": 0,
+  "keyBacklightBrightnessChargingDefault": 50,
+  "batteryChargingMode": "Full",
   "hostConnections": [
     {
       "type": "UsbRight",
@@ -249,7 +251,7 @@
   "keymaps": [
     {
       "isDefault": true,
-      "abbreviation": "MIT",
+      "abbreviation": "AGI",
       "name": "Windows",
       "description": "QWERTY is the mother of all layouts. This is the PC version.",
       "layers": [

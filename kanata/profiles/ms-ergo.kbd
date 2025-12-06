@@ -1,0 +1,57 @@
+;; Kanata configuration for Microsoft Ergonomic keyboard
+;; Leap Code layout implementation
+
+(defcfg
+  ;; For Linux - using device ID for Microsoft keyboard
+  ;; linux-dev /dev/input/by-id/usb-Microsoft_Microsoft®_2.4GHz_Transceiver_v9.0-event-kbd
+  
+  ;; Uncomment below to auto-detect keyboard devices
+  ;; This will automatically grab keyboard-like devices
+  process-unmapped-keys yes
+)
+
+(defsrc
+  esc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt 
+)
+
+(defalias
+  ;; Hold Right Alt for activating second layer (leapmode)
+  leap (layer-toggle leapmode)
+  
+  ;; CapsLock is Escape on tap, Ctrl on hold
+  ;; tap shorter than 200ms triggers escape
+  ;; press and hold functions as ctrl when followed by another key
+  ecn (tap-hold 200 200 esc lctl)
+  
+  ;; Special characters for leapmode layer
+  lprn S-9    ;; (
+  rprn S-0    ;; )
+  grtr S-.    ;; >
+  dlr  S-4    ;; $
+  lcbr S-[    ;; {
+  rcbr S-]    ;; }
+  unds S--    ;; _
+)
+
+(deflayer qwerty
+  caps
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  @ecn a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            @leap
+)
+
+(deflayer leapmode
+  caps
+  _    _     _     _     _     _    _    _    _    _     _    _    _    _
+  _    _     -     @lprn @rprn @grtr pgup home up   end   _    _    _    _
+  _    -     @dlr  @lcbr @rcbr =    pgdn left down rght  _    _    _    
+  _    @unds [     ]     _     _    _    _    _    _     _    _
+  _    _     _                 _              _    
+)

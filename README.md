@@ -4,7 +4,7 @@ A layout for Web Developers
 
 - Software implementation
   - Windows: [AutoHotKey v1](./ahk/)
-  - Linux: [kmonad](./kmonad), [xmodmap](./xmodmap/) (experimental)
+  - Linux: [kanata](./kanata), [kmonad](./kmonad), [xmodmap](./xmodmap/) (experimental)
 - Firmware implementation
   - Dygma Raise and Dygma Defy, see [dygma](./dygma/)
   - Ultimate Hacking Keyboard (UHK), see [uhk](./uhk/)

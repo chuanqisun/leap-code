@@ -1,0 +1,59 @@
+;; Kanata configuration for generic laptop keyboard
+;; Leap Code layout implementation
+
+(defcfg
+  ;; For Linux - using platform device path for laptop keyboards
+  ;; linux-dev /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  
+  ;; Uncomment below to auto-detect keyboard devices
+  ;; This will automatically grab keyboard-like devices
+  process-unmapped-keys yes
+)
+
+(defsrc
+  esc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt 
+)
+
+(defalias
+  ;; Hold Right Alt for activating second layer (leapmode)
+  leap (layer-toggle leapmode)
+  
+  ;; CapsLock is Escape on tap, Ctrl on hold
+  ;; tap shorter than 200ms triggers escape
+  ;; tap longer than 200ms is ignored
+  ;; press and hold functions as ctrl when followed by another key
+  ;; press and hold functions as ctrl after 200ms when followed by mouse click
+  ecn (tap-hold 200 200 esc lctl)
+  
+  ;; Special characters for leapmode layer
+  lprn S-9    ;; (
+  rprn S-0    ;; )
+  grtr S-.    ;; >
+  dlr  S-4    ;; $
+  lcbr S-[    ;; {
+  rcbr S-]    ;; }
+  unds S--    ;; _
+)
+
+(deflayer qwerty
+  caps
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  @ecn a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            @leap
+)
+
+(deflayer leapmode
+  caps
+  _    _     _     _     _     _    _    _    _    _     _    _    _    _
+  _    _     -     @lprn @rprn @grtr pgup home up   end   _    _    _    _
+  _    -     @dlr  @lcbr @rcbr =    pgdn left down rght  _    _    _    
+  _    @unds [     ]     _     _    _    _    _    _     _    _
+  _    _     _                 _              _    
+)

@@ -8,9 +8,12 @@ echo "Script in $SCRIPT_DIR"
 
 $SCRIPT_DIR/uninstall.sh
 
+# Get the original user when running under sudo
+REAL_USER=${SUDO_USER:-$USER}
+
 groupadd -f uinput
-usermod -aG input $USER
-usermod -aG uinput $USER
+usermod -aG input $REAL_USER
+usermod -aG uinput $REAL_USER
 
 cp $SCRIPT_DIR/kanata /usr/bin/kanata
 cp $SCRIPT_DIR/kanata.sh /usr/bin/kanata.sh
